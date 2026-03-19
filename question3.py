@@ -3,7 +3,7 @@
 # When 21 is tested, it should return "True" and when num2 is
 # tested, it should return "False".
 
-def question(num):
+def question_three(num):
 
   return True
   
