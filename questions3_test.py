@@ -1,17 +1,8 @@
 # question3_test.py
-import unittest
-#import question   # imports student code
+import question3
 
-
-#class TestQuizQuestions(unittest.TestCase):
-
-#    def test_question3(self):
-#       self.assertTrue(quiz.question3(21))
-#       self.assertTrue(quiz.question3(42))
-#       self.assertFalse(quiz.question3(9))
-#       self.assertFalse(quiz.question3(14))
-#       self.assertFalse(quiz.question3(10))
-
-
-#if __name__ == "__main__":
-#    unittest.main()
+def test_question3():
+  assert question_three.func(21) == True
+  assert question_three.func(23) == False
+  assert question_three.func(42) == True
+  assert question_three.func(23) == False
